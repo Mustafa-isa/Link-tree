@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James McArthur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Saira:wght@800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+    
+        
+
+        h2 {
+            font-family: 'Saira', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 50%);
+        }
+
+      
+
+        section {
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          
+          width: 50%;
+          
+      
+
+        }
+        
+        @media(max-width:767px){
+          section{
+            top: 60%;
+            width: 70%;
+          }
+        }
+        section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section > div {
+            padding: 100px 10px;
+        }
+
+        section div img {
+            width: 100px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            box-shadow: 0 0 8px 1px lightblue;
+        }
+
+        a {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            border: 1.5px solid white;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            align-items: center;
+            border-radius: 4px;
+            transition-duration: 200ms;
+        }
+
+        a:hover {
+            background: white;
+            color: #0f172a;
+        }
+
+        a i {
+            font-size: 1.3em;
+        }
+
+
+    </style>
+  <script type="module" crossorigin src="./assets/index-8d60f2a3.js"></script>
+</head>
+
+<body>
+  
+    <section>
+        <div>
+            <img src="./assets/my img-22770d95.jpg" alt="Mustafa Eisa" />
+            <h2>Mustafa Eisa</h2>
+            <div>
+                <a href="https://www.linkedin.com/in/mustafa-eisa-81585323a">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                </a>
+                <a href="https://github.com/Mustafa-isa">
+                  <i class="fa-brands fa-github"></i>
+                    <p>GitHup</p>
+                </a>
+                <a href="https://Wa.me/01115684146">
+                  <i class="fa-brands fa-whatsapp"></i>
+                    <p>Whatsapp</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <canvas class="webgl"></canvas>
+    
+</body>
+
+</html>
